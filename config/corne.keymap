@@ -88,14 +88,14 @@
         alt_semi_o_umlaut: alt_semi_o_umlaut {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp SEMI, <&macro_o_umlaut>;
+            bindings = <&kp SEMI>, <&macro_o_umlaut>;
             mods = <MOD_LALT>;
         };
 
         alt_quot_a_umlaut: alt_quot_a_umlaut {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp QUOT, <&macro_a_umlaut>;
+            bindings = <&kp QUOT>, <&macro_a_umlaut>;
             mods = <MOD_LALT>;
         };
     };
