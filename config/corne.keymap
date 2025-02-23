@@ -48,8 +48,9 @@
             #binding-cells = <0>;
             bindings
                 = <&macro_press &kp LALT>
-                , <&macro_tap &kp U &kp O>
+                , <&macro_tap &kp U>
                 , <&macro_release &kp LALT>
+                , <&macro_tap &kp O>
                 ;
         };
 
@@ -58,8 +59,9 @@
             #binding-cells = <0>;
             bindings
                 = <&macro_press &kp LALT>
-                , <&macro_tap &kp U &kp A>
+                , <&macro_tap &kp U>
                 , <&macro_release &kp LALT>
+                , <&macro_tap &kp A>
                 ;
         };
     };
