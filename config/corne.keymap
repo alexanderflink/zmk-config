@@ -85,7 +85,7 @@
             #binding-cells = <2>;
             flavor = "tap-preferred";
             tapping-term-ms = <200>;
-            bindings = <&kp LA(A)>, <LA(LCTRL)>;
+            bindings = <&kp LA(LCTRL)>, <&kp LA(A)>;
         };
 
         alt_a_overring: alt_a_overring {
