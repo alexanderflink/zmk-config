@@ -32,10 +32,10 @@
 
                 raise_layer {
                         bindings = <
-    &trans &trans &trans &trans &trans &trans   &trans     &kp C_BRI_DN &kp C_BRI_UP &trans     &trans   &trans
-    &trans &trans &trans &trans &trans &trans   &kp C_PREV &kp K_VOL_DN &kp K_VOL_UP &kp C_NEXT &kp C_PP &trans
-    &trans &trans &trans &trans &trans &trans   &trans &trans    &trans &trans &trans &trans
-            &trans &trans &trans   &trans &trans &trans
+    &trans &trans &trans &trans &trans &trans       &trans     &kp C_BRI_DN &kp C_BRI_UP &trans     &trans   &bt BT_CLR_ALL
+    &trans &trans &trans &trans &trans &trans       &kp C_PREV &kp K_VOL_DN &kp K_VOL_UP &kp C_NEXT &kp C_PP &trans
+    &trans &trans &trans &trans &trans &trans       &trans     &trans       &trans       &trans     &trans   &trans
+                         &trans &trans &trans       &trans &trans &trans
                         >;
                 };
         };
